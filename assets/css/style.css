@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.logoImg {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.menuItem {
+  color: gray !important;
+  margin: 5px 15px;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 7px;
+  transition: all 1s;
+}
+
+.menuItem:hover {
+  background-color: lime;
+  color: white !important;
+}
+
+.learnMore {
+  width: 35%;
+  color: white;
+  padding: 5px 10px;
+  margin: 0;
+  margin-top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: calc(14px + 0.3vw);
+  transition: 1s;
+  background-color: red;
+}
+.learnMore:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid;
+}
+.about {
+  background: url("../images/1bg.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.about h2 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.about img {
+  height: 150px;
+  width: 95%;
+}
+.about p {
+  color: white;
+  font-size: calc(10px + 0.3vw);
+}
+footer a {
+  color: white !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer a i {
+  color: rgb(216, 194, 186);
+}
+
+footer{
+    height: auto;
+}
+footer .p1 {
+  color: gold;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerLogo {
+}
+
+.footerLogo img{
+
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
