@@ -18,6 +18,11 @@
 a {
   text-decoration: none;
 }
+.menuItem.active{
+  background-color: aqua;
+  color: white !important;
+  
+}
 .menuItem {
   color: gray !important;
   margin: 5px 15px;
@@ -27,10 +32,7 @@ a {
   transition: all 1s;
 }
 
-.menuItem:hover {
-  background-color: lime;
-  color: white !important;
-}
+
 
 .learnMore {
   width: 35%;
@@ -76,7 +78,8 @@ footer a {
 }
 
 footer a i {
-  color: rgb(216, 194, 186);
+  color: rgb(235, 74, 10);
+
 }
 
 footer{
