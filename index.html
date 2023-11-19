@@ -27,23 +27,33 @@
           <div class="row align-items-center">
             <div class="col-3">
               <div class="logo">
-                <a href="./index.html"><img
-                  class="logoImg"
-                  src="./assets/images/merkezi.png"
-                  alt="Mərkəzi Express"
+                <a href="./index.html"
+                  ><img
+                    class="logoImg"
+                    src="./assets/images/merkezi.png"
+                    alt="Mərkəzi Express"
                 /></a>
               </div>
             </div>
             <div class="col-9 d-flex justify-content-end">
-              <div class="burgerMenu d-flex d-sm-none align-items-center">
+              <div class="burgerMenu d-flex d-md-none align-items-center">
                 <i class="fa-solid fa-bars"></i>
               </div>
-              <div class="menuItems d-none d-sm-flex">
+              <div class="menuItems d-none d-md-flex">
                 <a href="./index.html" class="menuItem active">Ana səhifə</a>
                 <a href="./about.html" class="menuItem">Haqqımızda</a>
                 <a href="./contact.html" class="menuItem">Əlaqə</a>
               </div>
             </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="mobileMenu d-flex d-md-none justify-content-end">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem active" href="./index.html">Ana Səhifə</a></div>
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem" href="./about.html">Haqqımızda</a></div>
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem " href="./contact.html">Əlaqə</a></div>
+                </div>
+              </div>
           </div>
         </div>
       </nav>
@@ -82,17 +92,17 @@
       </section>
       <section class="container my-4">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-2">
             <div class="baku">
               <img class="w-100" src="./assets/images/baku.jpg" alt="" />
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-2">
             <div class="moscow">
               <img class="w-100" src="./assets/images/moscow.jpg" alt="" />
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-2">
             <div class="world">
               <img class="w-100" src="./assets/images/world.jpeg" alt="" />
             </div>
@@ -106,24 +116,24 @@
             <div class="row">
               <div class="col-6 d-flex flex-column justify-content-center">
                 <div class="row mb-3">
-                  <div style="height: 170px" class="col-6">
-                    <div class="">
-                      <img src="./assets/images/aboutus.jpg" alt="" />
+                  <div style="height: 170px" class="col-12 col-lg-6">
+                    <div class="a">
+                      <img  src="./assets/images/aboutus.jpg" alt="" />
                     </div>
                   </div>
-                  <div style="height: 170px" class="col-6">
+                  <div style="height: 170px" class="col-12 col-lg">
                     <div class="mt-4">
                       <img src="./assets/images/transport.jpg" alt="" />
                     </div>
                   </div>
                 </div>
                 <div class="row">
-                  <div style="height: 170px" class="col-6">
+                  <div style="height: 170px" class="col-12 col-lg-6">
                     <div class="">
                       <img src="./assets/images/courier.jpg" alt="" />
                     </div>
                   </div>
-                  <div style="height: 170px" class="col-6">
+                  <div style="height: 170px" class="col-12 col-lg-6 ">
                     <div class="mt-4">
                       <img src="./assets/images/delivery.jpg" alt="" />
                     </div>
@@ -181,75 +191,53 @@
       </section>
     </main>
     <footer class="mt-4 bg-secondary">
-      <!-- <div class="container py-4">
-        <div class="col-4">
-          <div class="footerLogo w-75 ">
-         <img class="w-100" src="./assets/images/merkezi.png" alt="Mərkəzi Express">
-       </div>
-      </div>
-      <div class="row ">
-        <p class="text-center h3">Əlaqə</p>
-
-        <div class="col-4 d-flex flex-column align-items-start">
-          <a href="#"><i class="fa-solid fa-location-dot mx-2"></i> 189, Vidadi küç., Bakı, Azərbaycan</a>
-          <a href="#"><i class="fa-solid fa-envelope mx-2"></i> office@merkeziexpress.az</a>
-        </div>
-        <div class="col-4 d-flex flex-column align-items-end ">
-            <a href="#"><i class="fa-solid fa-phone mx-2"></i> (+994) 55 212 3422</a>
-            <a href="#"><i class="fa-solid fa-phone mx-2"></i> (+994) 12 497 4505</a>
-        </div>
-      </div>
-      </div> -->
       <div class="container py-4">
-        <div class="row justify-content-between align-items-start">
-          <div class="col-4 align-self-center">
+        <div
+          class="row justify-content-center justify-content-lg-between align-items-start"
+        >
+          <div
+            class="col-lg-4 col-12 align-self-center d-flex justify-content-center"
+          >
             <div class="footerLogo w-75">
               <a href="./index.html">
                 <img
-                class="w-100"
-                src="./assets/images/merkezi.png"
-                alt="Mərkəzi Express"
-              />
-            </a>
+                  class="w-100"
+                  src="./assets/images/merkezi.png"
+                  alt="Mərkəzi Express"
+                />
+              </a>
             </div>
           </div>
-          
+
           <div class="col-8 d-flex flex-column">
             <p class="text-start h3 p1">Əlaqə</p>
             <div class="row justify-content-between">
-              <div class="col-6">
+              <div class="col-lg-6 col=12">
                 <a href="#"
                   ><i class="fa-solid fa-location-dot mx-2"></i> 189, Vidadi
                   küç., Bakı, Azərbaycan</a
                 >
               </div>
-              
-              <div class="col-6">
+
+              <div class="col-lg-6 col-12">
                 <a href="#"
-                ><i class="fa-solid fa-phone mx-2"></i> (+994) 55 212 3422</a
-              >
-              </div>
-              <div class="col-6">
-                <a href="#"
-                  ><i class="fa-solid fa-envelope mx-2"></i>
-                  office@merkeziexpress.az</a
+                  ><i class="fa-solid fa-phone mx-2"></i> (+994) 55 212 3422</a
                 >
               </div>
-              <div class="col-6">
+              <div class="col-lg-6 col-12">
+                <a href="#"><i class="fa-solid fa-envelope mx-2"></i>
+                  office@merkeziexpress.az</a>
+              </div>
+              <div class="col-md-6 col-12">
                 <a href="#"
-                ><i class="fa-solid fa-phone mx-2"></i> (+994) 12 497 4505</a
-              >
+                  ><i class="fa-solid fa-phone mx-2"></i> (+994) 12 497 4505</a
+                >
               </div>
             </div>
-            
-                
-              
-                
-                
-            
           </div>
         </div>
       </div>
     </footer>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>

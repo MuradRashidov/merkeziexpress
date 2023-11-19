@@ -36,15 +36,24 @@
               </div>
             </div>
             <div class="col-9 d-flex justify-content-end">
-              <div class="burgerMenu d-flex d-sm-none align-items-center">
+              <div class="burgerMenu d-flex d-md-none align-items-center">
                 <i class="fa-solid fa-bars"></i>
               </div>
-              <div class="menuItems d-none d-sm-flex">
+              <div class="menuItems d-none d-md-flex">
                 <a href="./index.html" class="menuItem">Ana səhifə</a>
                 <a href="./about.html" class="menuItem active">Haqqımızda</a>
                 <a href="./contact.html" class="menuItem">Əlaqə</a>
               </div>
             </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="mobileMenu d-flex d-md-none justify-content-end">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem " href="./index.html">Ana Səhifə</a></div>
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem active" href="./about.html">Haqqımızda</a></div>
+                    <div class="col-12 d-flex justify-content-start  my-1"><a class="mobileMenuItem" href="./contact.html">Əlaqə</a></div>
+                </div>
+              </div>
           </div>
         </div>
       </nav>
@@ -62,7 +71,7 @@
             <h2 class="mx-4">Haqqımızda</h2>
           </div>
           <div class="row justify-content-between gap-4">
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <div class="aboutContentImage w-100">
                 <img
                   class="w-100"
@@ -71,27 +80,27 @@
                 />
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
               <div>
                 <div class="box-title">
                   <h3>“Royal Express” MMC</h3>
                 </div>
                 <div class="text-content">
-                  <p>
+                  <p class="aboutTxt">
                     “Royal Express” MMC 2001-ci ildə fəaliyyətə başlamişdır və
                     hal – hazırda&nbsp; Azərbaycan Respublikasının Rabitə və
                     İnformasiya Texnologiyalalrı Nazirliyi tərəfindən verilmiş
                     lisenziyaya əsasən sürətli poçt daşınma xidmətlərini yerinə
                     yetirir.
                   </p>
-                  <p>
+                  <p class="aboutTxt">
                     2009-cu il, 01 İyun tarixindən “Royal Express” MMC
                     Azərbaycan Respublikası daxili poçt daşınma xidmətindən
                     əlavə, müştərilər üçüuuml;n dünyanın istənilən nöqtəsinə
                     Beynəlxalq ekspres poçt va yük göndərişlərinin çatdırılması
                     xidmətini yerinə yetirir.
                   </p>
-                  <p>
+                  <p class="aboutTxt">
                     Təqdim etdiyimiz xidmətlərinin zonasını genişləndirmək
                     və&nbsp; keyfiyyətini yaxşılaşdırmaq üçün 2009 – cu ilin
                     dekabr ayından Gəncə&nbsp; şəhərində şirkətimizin filiali
@@ -104,10 +113,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-12">
               <h3>Komandamız</h3>
               <div class="text-content">
-                <p>
+                <p class="aboutTxt">
                   “Royal Express” MMC-nin işçi heyəti gənc, fəal və məsuliyyətli
                   mütəxəsislərdən təşkil edilmişdir. İşçi kollektivi ilk növbədə
                   internatda tərbiyə olunmuş gənclərdən, qaçqın, müharibə
@@ -115,7 +124,7 @@
                   Onların peşəkarlığını daha da artırmaq üçün Avropa
                   standartlarına uyğun treninqlər keçirilir.
                 </p>
-                <p>
+                <p class="aboutTxt">
                   Kuryer xidmətlərinin inkişaf prosesinin dinamikası bizim
                   kompaniyanı lider mövgeyinə irəliləməsinə kömək etdi.
                   Müştərilər kefiyyət və stabilliyə üstünlük verir – Biz isə
@@ -123,7 +132,7 @@
                   çatdırılması ən yüksək səviyyədədir. Müştərilər “Royal
                   Express” MMC-nin nüfuzuna etibar edir.
                 </p>
-                <p>
+                <p class="aboutTxt">
                   Bizim müştərimiz olun və bizimlə əməkdaşlığı dəyərləndirin.
                   İstənilən fiziki və ya hüquqi şəxs “Royal Express” MMC-nin
                   müştərisi ola bilər. Bunun üçün bizim mütəxəsislərə müraciət
@@ -132,7 +141,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <div class="aboutContentImage">
                     <img class="w-100" src="./assets/images/royal_express_team.jpg" alt="">
                 </div>
@@ -142,57 +151,53 @@
       </section>
     </main>
     <footer class="mt-4 bg-secondary">
-     
-        <div class="container py-4">
-          <div class="row justify-content-between align-items-start">
-            <div class="col-4 align-self-center">
-              <div class="footerLogo w-75">
-                <a href="./index.html">
-                  <img
+      <div class="container py-4">
+        <div
+          class="row justify-content-center justify-content-lg-between align-items-start"
+        >
+          <div
+            class="col-lg-4 col-12 align-self-center d-flex justify-content-center"
+          >
+            <div class="footerLogo w-75">
+              <a href="./index.html">
+                <img
                   class="w-100"
                   src="./assets/images/merkezi.png"
                   alt="Mərkəzi Express"
                 />
               </a>
-              </div>
             </div>
-            
-            <div class="col-8 d-flex flex-column">
-              <p class="text-start h3 p1">Əlaqə</p>
-              <div class="row justify-content-between">
-                <div class="col-6">
-                  <a href="#"
-                    ><i class="fa-solid fa-location-dot mx-2"></i> 189, Vidadi
-                    küç., Bakı, Azərbaycan</a
-                  >
-                </div>
-                
-                <div class="col-6">
-                  <a href="#"
+          </div>
+
+          <div class="col-8 d-flex flex-column">
+            <p class="text-start h3 p1">Əlaqə</p>
+            <div class="row justify-content-between">
+              <div class="col-lg-6 col=12">
+                <a href="#"
+                  ><i class="fa-solid fa-location-dot mx-2"></i> 189, Vidadi
+                  küç., Bakı, Azərbaycan</a
+                >
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <a href="#"
                   ><i class="fa-solid fa-phone mx-2"></i> (+994) 55 212 3422</a
                 >
-                </div>
-                <div class="col-6">
-                  <a href="#"
-                    ><i class="fa-solid fa-envelope mx-2"></i>
-                    office@merkeziexpress.az</a
-                  >
-                </div>
-                <div class="col-6">
-                  <a href="#"
+              </div>
+              <div class="col-lg-6 col-12">
+                <a href="#"><i class="fa-solid fa-envelope mx-2"></i>
+                  office@merkeziexpress.az</a>
+              </div>
+              <div class="col-md-6 col-12">
+                <a href="#"
                   ><i class="fa-solid fa-phone mx-2"></i> (+994) 12 497 4505</a
                 >
-                </div>
               </div>
-              
-                  
-                
-                  
-                  
-              
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+      <script src="./assets/js/app.js"></script>
   </body>
 </html>
