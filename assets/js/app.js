@@ -5,11 +5,11 @@ let isOpen = false;
 burgerMenuTrigger.addEventListener("click",()=>{
      mobileMenu.classList.toggle("toggleBurgerMenu");
      if(!isOpen){
-        mobileMenu.classList.remove("d-flex")
+        mobileMenu.classList.remove("d-none")
         isOpen = !isOpen;
      }
      else{
-        mobileMenu.classList.add("d-flex")
+        mobileMenu.classList.add("d-none")
         isOpen = !isOpen;
      }
 

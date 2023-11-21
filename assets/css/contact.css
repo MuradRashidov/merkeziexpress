@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 .toggleBurgerMenu{
-    display: none;
+    display: flex;
 }
 
   
