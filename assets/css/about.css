@@ -59,7 +59,7 @@
 
   }
 
-  main section .aboutBackgroundImage h1{
+  h1{
     font-size: calc(20px + 2vw);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
