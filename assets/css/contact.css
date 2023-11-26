@@ -20,7 +20,7 @@ a {
 }
 .menuItem.active,
 .mobileMenu .active {
-  background-color: aqua;
+  background-color: #ff3855;
   color: white !important;
 }
 .test {
@@ -78,7 +78,8 @@ overflow: hidden;
   transition: all  1s;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  background-color: transparent;
+  opacity: 1;
 }
 h1.h {
   font-size: calc(20px + 2vw);
@@ -86,7 +87,7 @@ h1.h {
   color: orangered;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 .contactInfo h2 {
@@ -95,11 +96,19 @@ h1.h {
 .contactInfo .contactWay {
   font-size: calc(10px + 1vw);
 }
-.contactInfo i {
+.contactInfo  i {
   font-size: 30px;
   padding: 35px;
   border: 1px solid rgb(0, 255, 255);
   border-radius: 50%;
+}
+.contactInfo i.wp {
+ width: 15px;
+ font-size: 15px;
+ padding: 0px;
+ height: 15px;
+ border: none;
+ color: limegreen;
 }
 .contactInfo a {
   font-size: calc(10px + 0.4vw);
