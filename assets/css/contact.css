@@ -81,7 +81,7 @@ overflow: hidden;
   background-color: transparent;
   opacity: 1;
 }
-h1.h {
+h3.h {
   font-size: calc(20px + 2vw);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ff3855;
