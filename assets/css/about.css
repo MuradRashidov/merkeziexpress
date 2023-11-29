@@ -49,6 +49,7 @@
 }
 .toggleBurgerMenu{
     display: flex;
+
 }
   
   main section .aboutBackgroundImage{
@@ -61,9 +62,15 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     line-height: 70px;
-
+    
   }
+h1.p{
+  font-size: calc(20px + 2vw);
+  font-weight: 400;
+  color: black;
+  line-height: 1.5;
 
+}
  .aboutContent .aboutContentImage {
      box-shadow: 14px 14px 0 0 rgba(0,0,0,.19);;
      color: aqua;
@@ -113,4 +120,20 @@
       height: 60px;
       object-fit: cover;
       border-radius: 10px;
+  }
+  .t{
+    color: black;
+    font-weight: 400;
+    line-height: 1.9;
+    font-size: calc(10px + 0.4vw);
+    display: inline;
+    letter-spacing: 1.6;
+  }
+  .t2{
+    color: black;
+    font-weight: 400;
+    line-height: 1.9;
+    font-size: calc(10px + 0.4vw);
+    display: block;
+    letter-spacing: 1.6;
   }

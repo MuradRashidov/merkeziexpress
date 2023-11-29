@@ -8,6 +8,8 @@
       name="description"
       content="Mərkəzi Ekspress, Azərbaycan Respublikası və beynəlxalq poçt daşınmalarını yerinə yetirən kuryer şirkətidir. Sürətli və etibarlı xidmət!"
     />
+        <meta name="keywords" content="merkezi ekspress,merkeziekspress,merkeziexpress, merkeziexpress,kuryer,kuryer xidmeti,kuryer,catdirilma, delivery, catdirilma xidmeti, suretli catdirilma,"/>
+
 
 
     <link
@@ -26,6 +28,8 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Mərkəzi Eksress | Ana səhifə</title>
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+
   </head>
   <body>
     <header class="my-2">
@@ -33,14 +37,11 @@
         <div class="container py-2">
           <div class="row align-items-center">
             <div class="col-3">
-              <div class="logo">
-                <a href="./index.html"
-                  ><img
-                    class="logoImg"
-                    src="./assets/images/merkezi.png"
-                    alt="Mərkəzi Ekspress"
-                /></a>
-              </div>
+              <div class="logo" itemscope itemtype="https://schema.org/Organization">
+                <a itemprop="url" href="./index.html">
+                   <img class="logoImg" itemprop="logo" src="./assets/images/merkezi.png" alt="Logo">
+                </a>
+             </div>
             </div>
             <div class="col-9 d-flex justify-content-end">
               <div class="burgerMenu d-flex d-md-none align-items-center">
@@ -76,25 +77,16 @@
     </header>
     <main>
       <section class="pp-0 m-0 position-relative" style="background-color: rgba(238,238,238,255);">
-        <!-- <div
-          style="
-            width: 100%;
-            height: 450px;
-            background-color: black;
-            opacity: 0;
-          "
-          class="shadow position-absolute"
-        ></div> -->
-       <div class="container">
+       <div class="container p-5">
         <div class="row p-0 m-0"           style="background-color: rgba(238,238,238,255);"
         >
           <div
             class="col-lg-7 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-center"
           >
             <h1  class="d-flex">MƏRKƏZİ EKSPRESS</h1>
-            <p class="py-4 text-center text-lg-start" style="width: 80%">
+            <h1 class=" py-4 text-center text-lg-start" style="width: 80%;font-weight: normal; font-size: calc(15px + 1vw);">
               Müasir və etibarlı kuryer xidməti
-            </p>
+            </h1>
             <div>
               <a href="./about.html" class="learnMore">Daha Ətraflı...</a>
             </div>
@@ -103,8 +95,8 @@
             <img
               style="height:300px"
               class="w-100"
-              src="./assets/images/homechanged4.png"
-              alt="merkeziekspress"
+              src="./assets/images/kuryer.png"
+              alt="mərkəzi ekspress"
             />
           </div>
         </div>
@@ -113,50 +105,34 @@
       <section class="container my-4">
         <div class="row">
           <div class="col-12 col-md-6 mb-2">
-            <div style="font-size: calc(10px + 0.9vw)">
+            <h1  style="font-weight: normal; font-size: calc(10px + 0.9vw)">
               Bakı şəhəri və regionlar üzrə poçt daşınması
-            </div>
+            </h1>
             <div style="height: 250px" class="baku position-relative">
              <div style="background-color: rgba(239,250,254,255);" class="position-absolute w-100 h-100 opacity-50"></div>
               <a href="./about.html">
                 <img
                   class="w-100 h-100"
-                  src="./assets/images/home_baku.png"
-                  alt="catdirilma"
+                  src="./assets/images/catdirilma.png"
+                  alt="çatdırılma şirkəti"
                 />
               </a>
             </div>
           </div>
           <div class="col-12 col-md-6 mb-2">
-            <div style="font-size: calc(10px + 0.9vw)">
+            <h1  style="font-size: calc(10px + 0.9vw) ;font-weight: normal;">
               Beynəlxalq poçt daşınması
-            </div>
+            </h1>
             <div style="height: 250px" class="baku">
               <a href="./about.html">
                 <img
                   class="w-100 h-100"
-                  src="./assets/images/home_c1.PNG"
-                  alt="merkeziekspress"
+                  src="./assets/images/kuryer-sirketi.PNG"
+                  alt="poçt şirkəti"
                 />
               </a>
             </div>
           </div>
-
-          <!-- <div class="col-12 col-md-4 mb-2">
-            <div class="baku">
-              <img class="w-100" src="./assets/images/baku.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-4 mb-2">
-            <div class="moscow">
-              <img class="w-100" src="./assets/images/moscow.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-4 mb-2">
-            <div class="world">
-              <img class="w-100" src="./assets/images/world.jpeg" alt="" />
-            </div>
-          </div> -->
         </div>
       </section>
       <section>
@@ -178,8 +154,8 @@
                     <div class="h-100">
                       <img
                         class="h-100 object-fit-cover"
-                        src="./assets/images/home_m1.PNG"
-                        alt="merkeziekspress"
+                        src="./assets/images/suretli-catdirilma.PNG"
+                        alt="kuryer şirkətləri"
                       />
                     </div>
                   </div>
@@ -190,8 +166,9 @@
                     <div class="mt-lg-4 h-100">
                       <img
                         class="h-100 object-fit-cover"
-                        src="./assets/images/home_m_2.png"
-                        alt="merkeziekspress"
+                        src="./assets/images/catdirilma-sirketi.png"
+                        alt="çatdırılma şirkətləri"
+                        
                       />
                     </div>
                   </div>
@@ -204,8 +181,8 @@
                     <div class="h-100">
                       <img
                         class="h-100 object-fit-cover"
-                        src="./assets/images/homem_2.PNG"
-                        alt="merkeziekspress"
+                        src="./assets/images/poct-xidmeti.PNG"
+                        alt="poçt xidməti"
                       />
                     </div>
                   </div>
@@ -216,8 +193,8 @@
                     <div class="mt-lg-4 h-100">
                       <img
                         class="h-100 object-fit-cover"
-                        src="./assets/images/home_m_4.png"
-                        alt="merkeziekspress"
+                        src="./assets/images/kuryer-xidmeti.png"
+                        alt="çatdırılma şirkəti"
                       />
                     </div>
                   </div>
@@ -225,37 +202,43 @@
               </div>
               <div class="col-6">
                 <div class="">
-                  <p>
-                    “Mərkəzi Ekspress” MMC Azərbaycan Respublikası və beynəlxalq
-                    poçt daşınmalarını yerinə yetirən kuryer şirkətidir. Biz
-                    Azərbaycan Respublikası daxilində və Avropanın müxtəlif
-                    ölkələrinə sürətli poçt daşınma və yüklərin çatdırılmasını
-                    yerinə yetiririk.
-                  </p>
-                  <p>“MƏRKƏZİ EKSPRESS” MMC BU GÜN:</p>
-                  <p>
+                  <div >
+                    <span>“Mərkəzi Ekspress” MMC Azərbaycan Respublikası daxili və </span>
+                    <h1 class="t">beynəlxalq poçt daşınmalarını </h1><span>yerinə yetirən</span>
+                    <h1 class="t">kuryer şirkətidir.</h1>
+                    <span>Biz Azərbaycan Respublikası daxilində və Avropanın müxtəlif ölkələrinə
+                    </span><h1 class="t"> sürətli poçt daşınma və yüklərin çatdırılmasını </h1><span> yerinə yetiririk.</span>
+                  </div>
+                  <div class="t">“MƏRKƏZİ EKSPRESS” MMC BU GÜN:</div>
+                  <div
+                
+                  >
                     <i class="fa-solid fa-circle-check mx-2 text-danger"></i>
-                    Azərbaycan Respublikası daxilində sürətli poçt və yüklərin
-                    çatdırılması üzrə lider kompaniyadır.
-                  </p>
-                  <p>
+                   <span> Azərbaycan Respublikası daxilində</span>
+                   <h1 class="t">sürətli poçt və yüklərin çatdırılması</h1>
+                    <span>üzrə lider kompaniyadır.
+                    </span>
+                  </div>
+                  <div class="t">
                     <i class="fa-solid fa-circle-check mx-2 text-danger"></i>
                     Göstərilən xidmətlərin yüksək səviyyəsi ilə seçilir.
-                  </p>
-                  <p>
+                  </div>
+                  <div class="t">
                     <i class="fa-solid fa-circle-check mx-2 text-danger"></i>
                     Rəqabətli tarif siyasəti aparır.
-                  </p>
-                  <p>
+                  </div>
+                  <div class="t">
                     <i class="fa-solid fa-circle-check mx-2 text-danger"></i>
-                    Azərbaycan Respublikasında 7 ildən artıq təcrübəyə malikdir.
-                  </p>
-                  <p>
+                    Azərbaycan Respublikasında 7 ildən artıq təcrübəyə malik
+                  </div>
+                  <div class="t">
                     <i class="fa-solid fa-circle-check mx-2 text-danger"></i>
                     Sifarişləri dəqiq və vaxtında yerinə yetiriir.
-                  </p>
-                  <p>
-                    Biz dayanmadan daimə poçt xidmətlərinin kefiyyətini
+                  </div>
+                  <div>
+                   <span>Biz dayanmadan daima</span>
+                   <h1 class="t">poçt xidmətlərinin</h1>
+                   <span> kefiyyətini
                     yüksəldir, daşınma üzrə dünyada liderlik edən kompaniyalarla
                     inamla rəqabət aparırıq. Etibarlılıq, operativlik,
                     punktuallıq, dəqiqlik, göndərişin çatdırılma prosesinin hər
@@ -263,7 +246,8 @@
                     nəzərə almaqla müştəriyə fərdi yanaşma, xidmətin yüksək
                     keyfiyyəti – bizim peşəkar fəaliyyətimizin müvəffəqiyyətinin
                     zaminidir.
-                  </p>
+                   </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -284,7 +268,7 @@
                 <img
                   class="w-100"
                   src="./assets/images/merkezi.png"
-                  alt="Mərkəzi Ekspress"
+                  alt="kuryer şirkətləri"
                 />
               </a>
             </div>
@@ -313,7 +297,7 @@
 
               <div class="col-md-6 col-12">
                 <a href="#"
-                  ><i class="fa-solid fa-phone mx-2"></i> (+994) 12 408 4142</a
+                  ><i class="fa-solid fa-phone mx-2"></i> (+994) 12 595 0348</a
                 >
               </div>
 
@@ -338,8 +322,8 @@
         <img
           class="whatsapp"
           style="width: 80px;border-radius: 50%;"
-          src="./assets/images/whatsapppng.png"
-          alt="merkeziekspress"
+          src="./assets/images/whatsapp.png"
+          alt="kuryer şirkəti"
         />
       </a>
     </div>

@@ -92,9 +92,31 @@ a {
   height: 150px;
   width: 95%;
 }
-.about p {
+.about span{
   color: black;
+  font-weight: normal;
   font-size: calc(10px + 0.3vw);
+  letter-spacing: 1.6;
+  line-height: 1.9;
+  
+}
+.t{
+  color: black;
+  font-weight: 400;
+  line-height: 1.9;
+  font-size: calc(10px + 0.3vw);
+  display: inline-block;
+  letter-spacing: 1.6;
+  margin-bottom: 10px;
+}
+.about h1{
+  font-style: normal;
+  line-height: normal;
+  color: black;
+  font-weight: normal;
+  font-size: calc(10px + 0.3vw);
+  display: inline;
+  
 }
 footer a {
   color: white !important;
